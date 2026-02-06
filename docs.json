@@ -9,30 +9,48 @@
   },
   "favicon": "/images/white.png",
   "navigation": {
-    "anchors": [
+    "groups": [
       {
-        "anchor": "Website",
-        "icon": "globe",
-        "color": {
-          "light": "#3B82F6",
-          "dark": "#3B82F6"
-        },
-        "href": "https://zenobot.app/"
+        "group": "Bulletin",
+        "icon": "megaphone",
+        "expanded": true,
+        "pages": [
+          "features",
+          "commands",
+          "configuration"
+        ]
       },
       {
-        "anchor": "Changelog",
-        "icon": "clipboard-list",
-        "color": {
-          "light": "#3B82F6",
-          "dark": "#3B82F6"
-        },
-        "href": "https://zenobot.app/changelog"
+        "group": "Modules",
+        "icon": "settings-2",
+        "expanded": true,
+        "pages": [
+          "moderation",
+          "logging",
+          "welcome",
+          "roblox-verification"
+        ]
+      },
+      {
+        "group": "Miscellaneous",
+        "icon": "book-minus",
+        "expanded": true,
+        "pages": [
+          "exclusions",
+          "safety-flags",
+          "troubleshooting"
+        ]
       }
     ]
   },
   "logo": "/images/white.png",
   "navbar": {
-    "links": [],
+    "links": [
+      {
+        "label": "h",
+        "href": "/li"
+      }
+    ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
