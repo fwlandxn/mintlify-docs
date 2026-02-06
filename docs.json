@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "maple",
+  "theme": "mint",
   "name": "Zeno Documentation",
   "colors": {
     "primary": "#3B82F6",
@@ -9,79 +9,26 @@
   },
   "favicon": "/images/white.png",
   "navigation": {
-    "tabs": [
+    "anchors": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
+        "anchor": "Website",
+        "icon": "globe",
+        "color": {
+          "light": "#3B82F6",
+          "dark": "#3B82F6"
+        },
+        "href": "https://zenobot.app/"
       },
       {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+        "anchor": "Changelog",
+        "icon": "clipboard-list",
+        "color": {
+          "light": "#3B82F6",
+          "dark": "#3B82F6"
         },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+        "href": "https://zenobot.app/changelog"
+      }
+    ]
   },
   "logo": "/images/white.png",
   "navbar": {
@@ -131,14 +78,5 @@
   },
   "icons": {
     "library": "lucide"
-  },
-  "thumbnails": {
-    "background": "/images/Zeno_Banners-removebg-preview.png",
-    "fonts": {
-      "family": "Poppins"
-    }
-  },
-  "styling": {
-    "eyebrows": "breadcrumbs"
   }
 }
