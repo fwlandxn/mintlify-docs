@@ -85,12 +85,7 @@
   },
   "logo": "/images/white.png",
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Dashboard",
@@ -111,16 +106,39 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://zenobot.app/x",
+      "github": "https://zenobot.app/github",
+      "discord": "https://zenobot.app/discord"
     }
   },
   "background": {
-    "decoration": "grid",
-    "image": "/images/Zeno_Banners-removebg-preview.png"
+    "decoration": "grid"
   },
   "appearance": {
     "default": "dark"
+  },
+  "fonts": {
+    "family": "Poppins"
+  },
+  "search": {
+    "prompt": "Search or ask"
+  },
+  "metadata": {
+    "timestamp": true
+  },
+  "interaction": {
+    "drilldown": true
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "thumbnails": {
+    "background": "/images/Zeno_Banners-removebg-preview.png",
+    "fonts": {
+      "family": "Poppins"
+    }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
   }
 }
